@@ -1,1 +1,1 @@
-# UMC
+# UMC Android 실습
