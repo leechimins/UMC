@@ -1,12 +1,10 @@
-package com.mobile.week2_1
+package com.mobile.flo
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.mobile.week2_1.databinding.ActivitySongBinding
+import com.mobile.flo.databinding.ActivitySongBinding
 
 class SongActivity : AppCompatActivity() {
     lateinit var binding: ActivitySongBinding

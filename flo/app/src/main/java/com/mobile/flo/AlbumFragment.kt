@@ -1,4 +1,4 @@
-package com.mobile.week3
+package com.mobile.flo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.tabs.TabLayoutMediator
-import com.mobile.week3.adapter.AlbumVPAdapter
-import com.mobile.week3.databinding.FragmentAlbumBinding
-import com.mobile.week3.view_model.SharedViewModel
+import com.mobile.flo.adapter.AlbumVPAdapter
+import com.mobile.flo.databinding.FragmentAlbumBinding
+import com.mobile.flo.view_model.SharedViewModel
 
 class AlbumFragment : Fragment() {
     private lateinit var binding: FragmentAlbumBinding

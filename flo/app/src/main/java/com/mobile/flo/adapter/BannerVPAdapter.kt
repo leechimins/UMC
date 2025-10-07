@@ -1,4 +1,4 @@
-package com.mobile.week3.adapter
+package com.mobile.flo.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter

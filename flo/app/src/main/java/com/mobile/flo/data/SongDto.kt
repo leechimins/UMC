@@ -1,4 +1,4 @@
-package com.mobile.week2_1.data
+package com.mobile.flo.data
 
 data class SongDto(
     var title: String? = "제목",

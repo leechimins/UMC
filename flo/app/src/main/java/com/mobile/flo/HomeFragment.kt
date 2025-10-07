@@ -1,4 +1,4 @@
-package com.mobile.week2_1
+package com.mobile.flo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import com.mobile.week2_1.data.SongDto
-import com.mobile.week2_1.databinding.FragmentHomeBinding
-import com.mobile.week2_1.viewModel.SharedViewModel
+import androidx.viewpager2.widget.ViewPager2
+import com.mobile.flo.data.SongDto
+import com.mobile.flo.databinding.FragmentHomeBinding
+import com.mobile.flo.adapter.BannerVPAdapter
+import com.mobile.flo.view_model.SharedViewModel
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
@@ -24,6 +26,13 @@ class HomeFragment : Fragment() {
                 .replace(R.id.main_frm, AlbumFragment())
                 .commitAllowingStateLoss()
         }
+
+        val bannerAdapter= BannerVPAdapter(this)
+        bannerAdapter.addFragment(BannerFragment(R.drawable.img_home_viewpager_exp))
+        bannerAdapter.addFragment(BannerFragment(R.drawable.img_home_viewpager_exp2))
+        binding.homeBannerVp.adapter = bannerAdapter
+        binding.homeBannerVp.orientation = ViewPager2.ORIENTATION_HORIZONTAL
+
         return binding.root
     }
 

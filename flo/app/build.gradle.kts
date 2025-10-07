@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mobile.week3"
+    namespace = "com.mobile.flo"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mobile.week3"
+        applicationId = "com.mobile.flo"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

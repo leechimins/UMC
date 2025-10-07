@@ -1,21 +1,20 @@
-package com.mobile.week3
+package com.mobile.flo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mobile.week3.databinding.FragmentDetailBinding
+import com.mobile.flo.databinding.FragmentSongBinding
 
-class DetailFragment : Fragment() {
+class SongFragment : Fragment() {
 
-    lateinit var binding: FragmentDetailBinding
+    lateinit var binding: FragmentSongBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentDetailBinding.inflate(inflater, container, false)
+        binding = FragmentSongBinding.inflate(inflater, container, false)
         return binding.root
     }
-
 }

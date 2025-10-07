@@ -1,11 +1,11 @@
-package com.mobile.week3
+package com.mobile.flo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mobile.week3.databinding.FragmentBannerBinding
+import com.mobile.flo.databinding.FragmentBannerBinding
 
 
 class BannerFragment(val imgRes: Int) : Fragment() {

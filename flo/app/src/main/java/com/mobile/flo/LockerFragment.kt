@@ -1,11 +1,11 @@
-package com.mobile.week3
+package com.mobile.flo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mobile.week3.databinding.FragmentLockerBinding
+import com.mobile.flo.databinding.FragmentLockerBinding
 
 class LockerFragment : Fragment() {
     private lateinit var binding: FragmentLockerBinding

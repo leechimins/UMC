@@ -1,10 +1,10 @@
-package com.mobile.week3.adapter
+package com.mobile.flo.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.mobile.week3.DetailFragment
-import com.mobile.week3.SongFragment
-import com.mobile.week3.VideoFragment
+import com.mobile.flo.DetailFragment
+import com.mobile.flo.SongFragment
+import com.mobile.flo.VideoFragment
 
 class AlbumVPAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
